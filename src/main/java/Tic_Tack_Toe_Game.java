@@ -278,7 +278,7 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
          else if(checkedblocks==9){
              JOptionPane.showMessageDialog(this,"Game Drawn","Tic Tac Toe",
                      JOptionPane.INFORMATION_MESSAGE);
-             checkedblocks=0;
+             
          }
      }
     /**
@@ -691,6 +691,7 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
 
     private void txtresetActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtresetActionPerformed
         // TODO add your handling code here:
+        checkedblocks=0;
         txtbtn1.setText("");
         txtbtn2.setText("");
         txtbtn3.setText("");
@@ -720,7 +721,6 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
         txtbtn7.setBackground(Color.LIGHT_GRAY);
         txtbtn8.setBackground(Color.LIGHT_GRAY);
         txtbtn9.setBackground(Color.LIGHT_GRAY);
-        
         
     }//GEN-LAST:event_txtresetActionPerformed
 
