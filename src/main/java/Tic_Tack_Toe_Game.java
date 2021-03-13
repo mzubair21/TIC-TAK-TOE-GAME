@@ -34,9 +34,13 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
          if(startGame.equalsIgnoreCase("X"))
          {
             startGame= "O"; 
+            playero.setForeground(Color.RED);
+            playerx.setForeground(Color.BLACK);
          }
          else{
              startGame="X";
+             playerx.setForeground(Color.RED);
+             playero.setForeground(Color.BLACK);
          }
      }
      private void disabled(){
@@ -423,6 +427,7 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
         playero.setText("Player 0:");
 
         playerx.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
+        playerx.setForeground(java.awt.Color.red);
         playerx.setText("Player X:");
 
         playerxxx.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
@@ -750,7 +755,7 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
             java.util.logging.Logger.getLogger(Tic_Tack_Toe_Game.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+        
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
