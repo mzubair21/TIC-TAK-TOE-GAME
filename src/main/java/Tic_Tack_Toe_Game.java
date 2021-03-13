@@ -230,7 +230,7 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
          else if(b2==("O")&& b5==("O") && b8 =="O" ){
              JOptionPane.showMessageDialog(this,"PLayer O Win","Tic Tac Toe",
                      JOptionPane.INFORMATION_MESSAGE);
-             xCount++;
+             oCount++;
              gameScore();
              disabled();
              txtbtn2.setEnabled(true);
@@ -269,7 +269,7 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
          else if(b3==("O")&& b5==("O") && b7 =="O" ){
              JOptionPane.showMessageDialog(this,"PLayer O Win","Tic Tac Toe",
                      JOptionPane.INFORMATION_MESSAGE);
-             xCount++;
+             oCount++;
              gameScore();
              disabled();
              txtbtn3.setEnabled(true);
@@ -321,7 +321,7 @@ public class Tic_Tack_Toe_Game extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("TIC TAC TOE GMAE");
+        jLabel1.setText("TIC TAC TOE GAME");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
